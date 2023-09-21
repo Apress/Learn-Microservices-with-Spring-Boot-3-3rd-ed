@@ -1,0 +1,9 @@
+microservices/book/gamification/game/badgeprocessors/FirstWonBadgeProcessorTest.class
+microservices/book/gamification/game/badgeprocessors/SilverBadgeProcessorTest.class
+microservices/book/gamification/game/GameServiceImplTest.class
+microservices/book/gamification/game/badgeprocessors/BronzeBadgeProcessorTest.class
+microservices/book/gamification/game/badgeprocessors/GoldBadgeProcessorTest.class
+microservices/book/gamification/game/badgeprocessors/LuckyNumberBadgeProcessorTest.class
+microservices/book/gamification/GamificationApplicationTests.class
+microservices/book/gamification/game/LeaderBoardServiceImplTest.class
+microservices/book/gamification/game/LeaderBoardControllerTest.class
