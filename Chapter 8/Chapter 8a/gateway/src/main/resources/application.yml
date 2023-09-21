@@ -1,0 +1,32 @@
+
+server:
+  port: 8000
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: multiplication
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/challenges/**,/attempts,/attempts/**,/users/**
+        - id: gamification
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/leaders
+      globalcors:
+          cors-configurations:
+            '[/**]':
+              allowedOrigins: "http://localhost:3000"
+              allowedHeaders: "*"
+              allowedMethods:
+                - "GET"
+                - "POST"
+                - "OPTIONS"
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_UNIQUE
+
+# Uncomment the configuration below if you want to enable route matching logs
+logging:
+  level:
+    org.springframework.cloud.gateway.handler.predicate: trace
