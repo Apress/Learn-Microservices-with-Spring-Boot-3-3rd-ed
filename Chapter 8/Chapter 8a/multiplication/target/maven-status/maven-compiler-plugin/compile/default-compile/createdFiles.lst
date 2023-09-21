@@ -1,0 +1,3 @@
+microservices/book/multiplication/challenge/ChallengeEventPub.class
+microservices/book/multiplication/challenge/ChallengeSolvedEvent.class
+microservices/book/multiplication/configuration/AMQPConfiguration.class

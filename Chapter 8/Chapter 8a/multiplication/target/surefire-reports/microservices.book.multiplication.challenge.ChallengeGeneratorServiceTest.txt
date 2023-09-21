@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: microservices.book.multiplication.challenge.ChallengeGeneratorServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.576 s - in microservices.book.multiplication.challenge.ChallengeGeneratorServiceTest
