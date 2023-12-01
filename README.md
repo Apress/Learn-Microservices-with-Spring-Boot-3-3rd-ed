@@ -2,6 +2,8 @@
 
 This repository accompanies [*Learn Microservices with Spring Boot 3 3rd ed.*](https://www.link.springer.com/book/10.1007/978-1-4842-9757-5) by Moisés Macero García and Tarun Telang (Apress, 2023).
 
+Please access the authors' github repo for the full source code: https://github.com/Book-Microservices-v3
+
 [comment]: #cover
 ![Cover image](978-1-4842-9756-8.jpg)
 
